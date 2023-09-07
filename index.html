@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRISTOPHER NOLAN</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/gotham-6" rel="stylesheet">
+                
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h2 id="nav-logo">CHRISTOPHER NOLAN</h2>
+           
+            <ul class="nav-links"> 
+                <li><a href="#main-video">HOME</a></li>
+                <li><a href="#about-page">ABOUT</a></li>
+                <li><a href="#section1">WORK</a></li>
+                <li><a href="#contact-form"><span>CONTACT</span></a></li>
+               
+            </ul>
+            <i class="ri-menu-line " id="menu-icon"></i>
+        </div>
+      <div class="main-video" id="main-video">
+        <video src="personal video.mp4" class="video-container"  muted autoplay loop></video>
+        <h1>Filmmaker-Producer</h1>
+      </div>
+      
+      <h1 class="about-me" id="about-page">ABOUT ME</h1>
+
+      <div class="about-page" >
+       
+        <div class="left-photo">
+            <img src="./Untitled design (3).png" alt="">
+        </div>
+        <div class="right-photo">
+          
+            <h2>I'm</h2>
+            <h1><span>Christopher Nolan</span> </h1>
+            <p>Hey there, I'm Christopher Nolan, the guy behind some of your favorite mind-bending movies! You know, those films that make you question reality and leave you thinking for days. From "Inception" to "The Dark Knight Trilogy," I've taken you on unforgettable cinematic adventures. So, get ready to dive deep into my world of dreams, time, and complex characters as I continue to push the boundaries of storytelling. Join me on this thrilling journey, and together, let's explore the wonders of cinema!</p>
+
+          
+        </div>
+      </div>
+      <hr>
+      <h1 class="movie-list"  id="section1">MOVIES</h1>
+       <div class="section1">
+        <div class="work">
+<img src="images/dark knight.jpg" alt="">
+   <div class="heading-class"> <h2>The Dark Knight(2008)</h2>
+    <p>After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.</p>
+  </div>
+        </div>
+
+        <div class="work">
+          <img src="images/oppenheimer.jpg" alt="">
+             <div class="heading-class"> <h2>Oppenheimer(2023)</h2>
+              <p>During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb.</p>
+            </div>
+                  </div>
+
+
+                  <div class="work">
+                    <img src="images/interstellar.jpg" alt="">
+                       <div class="heading-class"> <h2>interstellar(2014)</h2>
+                        <p>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.</p>
+                      </div>
+                            </div>
+
+
+       </div>
+<!-- contact form -->
+<h1 class="movie-list" id="contact-form">CONTACT</h1>
+
+<div class="form-container">
+  
+  <form action="https://formsubmit.co/efb5bd622ea1ae81e8eacb393d4706d3" method="POST" >
+    <input type="hidden" name="_captcha" value="false">
+    <h3>GET IN TOUCH</h3>
+    <input type="text" name="name" id="name" placeholder="Your name " required >
+    <input type="email" name="email" id="email" placeholder="Email id" required >
+    <input type="text" name="phone" id="phone" placeholder="Phone no " required >
+    <textarea  id="message" name="message" rows="4" placeholder="how can i help you" ></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<!-- <div class="form-container">
+  <form action="https://formsubmit.co/efb5bd622ea1ae81e8eacb393d4706d3" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <h3>GET IN TOUCH</h3>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+    <input type="email" id="email" name="email" placeholder="Email id" required>
+    <input type="text" id="phone" name="phone" placeholder="Phone no" required>
+    <textarea id="message" name="message" rows="4" placeholder="How can I help you"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div> -->
+       
+    </div>
+    <script src="app.js"></script>
+ </body>
+</html>
